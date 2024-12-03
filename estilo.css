@@ -1,0 +1,60 @@
+/* Estilo para el body, con un fondo y un padding general */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para el encabezado (h1), añadiendo sombra y un color de fondo */
+h1.center {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo para los párrafos generales */
+p {
+    line-height: 1.6;
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Estilo para el párrafo dentro del div con clase "contenido" */
+.contenido p {
+    background-color: rgba(0, 255, 255, 0.2); /* Fondo semitransparente */
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Estilo para el enlace dentro del párrafo */
+a {
+    color: #0077cc;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #005fa3; /* Color más oscuro cuando el usuario pasa el mouse */
+}
+
+/* Estilo para los párrafos con id "para1" */
+#para1 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Añadir un borde a la caja que contiene todo el contenido */
+.contenido {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
